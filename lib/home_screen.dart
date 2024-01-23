@@ -22,6 +22,7 @@ class _HomePageState extends State<HomePage> {
       ),
       drawer: Drawer(
         child: ListView(
+          padding: EdgeInsets.zero,
           children: [
             const UserAccountsDrawerHeader(
                 decoration: BoxDecoration(
